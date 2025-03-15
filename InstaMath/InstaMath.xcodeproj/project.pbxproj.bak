@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		84C299E22D84C04A009EF96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C299C82D84C048009EF96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C299CF2D84C048009EF96A;
+			remoteInfo = InstaMath;
+		};
+		84C299EC2D84C04A009EF96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C299C82D84C048009EF96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C299CF2D84C048009EF96A;
+			remoteInfo = InstaMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C299D02D84C048009EF96A /* InstaMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C299E12D84C04A009EF96A /* InstaMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C299EB2D84C04A009EF96A /* InstaMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		84C299D22D84C048009EF96A /* InstaMath */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InstaMath;
+			sourceTree = "<group>";
+		};
+		84C299E42D84C04A009EF96A /* InstaMathTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InstaMathTests;
+			sourceTree = "<group>";
+		};
+		84C299EE2D84C04A009EF96A /* InstaMathUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InstaMathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C299CD2D84C048009EF96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C299DE2D84C04A009EF96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C299E82D84C04A009EF96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C299C72D84C048009EF96A = {
+			isa = PBXGroup;
+			children = (
+				84C299D22D84C048009EF96A /* InstaMath */,
+				84C299E42D84C04A009EF96A /* InstaMathTests */,
+				84C299EE2D84C04A009EF96A /* InstaMathUITests */,
+				84C299D12D84C048009EF96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C299D12D84C048009EF96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C299D02D84C048009EF96A /* InstaMath.app */,
+				84C299E12D84C04A009EF96A /* InstaMathTests.xctest */,
+				84C299EB2D84C04A009EF96A /* InstaMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C299CF2D84C048009EF96A /* InstaMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C299F52D84C04A009EF96A /* Build configuration list for PBXNativeTarget "InstaMath" */;
+			buildPhases = (
+				84C299CC2D84C048009EF96A /* Sources */,
+				84C299CD2D84C048009EF96A /* Frameworks */,
+				84C299CE2D84C048009EF96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				84C299D22D84C048009EF96A /* InstaMath */,
+			);
+			name = InstaMath;
+			packageProductDependencies = (
+			);
+			productName = InstaMath;
+			productReference = 84C299D02D84C048009EF96A /* InstaMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C299E02D84C04A009EF96A /* InstaMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C299F82D84C04A009EF96A /* Build configuration list for PBXNativeTarget "InstaMathTests" */;
+			buildPhases = (
+				84C299DD2D84C04A009EF96A /* Sources */,
+				84C299DE2D84C04A009EF96A /* Frameworks */,
+				84C299DF2D84C04A009EF96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C299E32D84C04A009EF96A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84C299E42D84C04A009EF96A /* InstaMathTests */,
+			);
+			name = InstaMathTests;
+			packageProductDependencies = (
+			);
+			productName = InstaMathTests;
+			productReference = 84C299E12D84C04A009EF96A /* InstaMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84C299EA2D84C04A009EF96A /* InstaMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C299FB2D84C04A009EF96A /* Build configuration list for PBXNativeTarget "InstaMathUITests" */;
+			buildPhases = (
+				84C299E72D84C04A009EF96A /* Sources */,
+				84C299E82D84C04A009EF96A /* Frameworks */,
+				84C299E92D84C04A009EF96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C299ED2D84C04A009EF96A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84C299EE2D84C04A009EF96A /* InstaMathUITests */,
+			);
+			name = InstaMathUITests;
+			packageProductDependencies = (
+			);
+			productName = InstaMathUITests;
+			productReference = 84C299EB2D84C04A009EF96A /* InstaMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C299C82D84C048009EF96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					84C299CF2D84C048009EF96A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					84C299E02D84C04A009EF96A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 84C299CF2D84C048009EF96A;
+					};
+					84C299EA2D84C04A009EF96A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 84C299CF2D84C048009EF96A;
+					};
+				};
+			};
+			buildConfigurationList = 84C299CB2D84C048009EF96A /* Build configuration list for PBXProject "InstaMath" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C299C72D84C048009EF96A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 84C299D12D84C048009EF96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C299CF2D84C048009EF96A /* InstaMath */,
+				84C299E02D84C04A009EF96A /* InstaMathTests */,
+				84C299EA2D84C04A009EF96A /* InstaMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C299CE2D84C048009EF96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C299DF2D84C04A009EF96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C299E92D84C04A009EF96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C299CC2D84C048009EF96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C299DD2D84C04A009EF96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C299E72D84C04A009EF96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C299E32D84C04A009EF96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C299CF2D84C048009EF96A /* InstaMath */;
+			targetProxy = 84C299E22D84C04A009EF96A /* PBXContainerItemProxy */;
+		};
+		84C299ED2D84C04A009EF96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C299CF2D84C048009EF96A /* InstaMath */;
+			targetProxy = 84C299EC2D84C04A009EF96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84C299F32D84C04A009EF96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 84C299D22D84C048009EF96A /* InstaMath */;
+			baseConfigurationReferenceRelativePath = InstaMath.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C299F42D84C04A009EF96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C299F62D84C04A009EF96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 84C299D22D84C048009EF96A /* InstaMath */;
+			baseConfigurationReferenceRelativePath = InstaMath.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = InstaMath/InstaMath.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstaMath/Preview Content\"";
+				DEVELOPMENT_TEAM = 54Q6K6HKGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = InstaMath/InstaMathInfo.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.calculator.CasioGraphingCalc.InstaMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C299F72D84C04A009EF96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = InstaMath/InstaMath.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstaMath/Preview Content\"";
+				DEVELOPMENT_TEAM = 54Q6K6HKGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = InstaMath/InstaMathInfo.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.calculator.CasioGraphingCalc.InstaMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C299F92D84C04A009EF96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 84C299D22D84C048009EF96A /* InstaMath */;
+			baseConfigurationReferenceRelativePath = InstaMath.xcconfig;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54Q6K6HKGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.calculator.CasioGraphingCalc.InstaMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaMath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaMath";
+			};
+			name = Debug;
+		};
+		84C299FA2D84C04A009EF96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54Q6K6HKGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.calculator.CasioGraphingCalc.InstaMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaMath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaMath";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C299FC2D84C04A009EF96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 84C299D22D84C048009EF96A /* InstaMath */;
+			baseConfigurationReferenceRelativePath = InstaMath.xcconfig;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54Q6K6HKGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.calculator.InstaMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaMath;
+			};
+			name = Debug;
+		};
+		84C299FD2D84C04A009EF96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54Q6K6HKGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.calculator.InstaMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaMath;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C299CB2D84C048009EF96A /* Build configuration list for PBXProject "InstaMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C299F32D84C04A009EF96A /* Debug */,
+				84C299F42D84C04A009EF96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C299F52D84C04A009EF96A /* Build configuration list for PBXNativeTarget "InstaMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C299F62D84C04A009EF96A /* Debug */,
+				84C299F72D84C04A009EF96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C299F82D84C04A009EF96A /* Build configuration list for PBXNativeTarget "InstaMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C299F92D84C04A009EF96A /* Debug */,
+				84C299FA2D84C04A009EF96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C299FB2D84C04A009EF96A /* Build configuration list for PBXNativeTarget "InstaMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C299FC2D84C04A009EF96A /* Debug */,
+				84C299FD2D84C04A009EF96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C299C82D84C048009EF96A /* Project object */;
+}

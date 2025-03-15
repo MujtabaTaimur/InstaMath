@@ -1,0 +1,29 @@
+// Deployment
+SDKROOT = iphoneos
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
+TARGETED_DEVICE_FAMILY = 1,2
+
+// Architecture
+ARCHS = $(ARCHS_STANDARD)
+
+// Swift
+SWIFT_VERSION = 5.0
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+
+// Build
+ENABLE_BITCODE = NO
+ENABLE_PREVIEWS = YES
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM = 
+GENERATE_INFOPLIST_FILE = NO
+
+// Assets
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
+
+// Info.plist
+INFOPLIST_KEY_UILaunchScreen_Generation = YES
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait 
